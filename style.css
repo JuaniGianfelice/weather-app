@@ -5,7 +5,9 @@
 }
 
 body{
-    background-color: #222;
+    background: url("assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card {
@@ -37,6 +39,7 @@ body{
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
+    text-transform: capitalize;
 }
 
 .search button {
