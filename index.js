@@ -31,13 +31,13 @@ async function checkWeather (city) {
             weatherIcon.src = "assets/clear.png"
         }
         else if (data.weather [0].main == "Rain") {
-            weatherIcon.src = "assets/Rain.png"
+            weatherIcon.src = "assets/rain.png"
         }
         else if (data.weather [0].main == "Drizzle") {
-            weatherIcon.src = "assets/Drizzle.png"
+            weatherIcon.src = "assets/drizzle.png"
         }
         else if (data.weather [0].main == "Mist") {
-            weatherIcon.src = "assets/Mist.png"
+            weatherIcon.src = "assets/mist.png"
         }
         
         document.querySelector(".weather").style.display = "block";
